@@ -56,13 +56,37 @@
 
     </section>
     
-<!-- Download Resume Section -->
-<section id="resume">
+```html
+<!-- Resume Section -->
+<section id="resume" class="resume-section">
     <h2>My Resume</h2>
-    <a href="resume.pdf" download class="resume-btn">
-        Download Resume
+
+    <a href="#resume-viewer" class="resume-btn">
+        View My Resume
     </a>
+
+    <div id="resume-viewer" class="resume-viewer">
+        <h3>My Resume</h3>
+
+        <iframe
+            src="resume.pdf"
+            title="My Resume"
+            width="100%"
+            height="600">
+        </iframe>
+
+        <div class="resume-actions">
+            <a href="resume.pdf" download="Sankalp-Resume.pdf">
+                Download Resume
+            </a>
+
+            <a href="resume.pdf" target="_blank" rel="noopener">
+                Open / Print Resume
+            </a>
+        </div>
+    </div>
 </section>
+```
 
     <!-- About Section -->
 <section id="about">
