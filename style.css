@@ -989,3 +989,66 @@ footer .copyright {
     font-size: 14px;
     color: #64748b;
 }
+```css
+/* Resume Section */
+.resume-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.resume-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 15px auto 25px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    background: #0056b3;
+}
+
+.resume-viewer {
+    max-width: 850px;
+    margin: 25px auto;
+    scroll-margin-top: 20px;
+}
+
+.resume-viewer iframe {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px auto;
+    background: white;
+}
+
+.resume-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.resume-actions a {
+    display: inline-block;
+    padding: 11px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.resume-actions a:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .resume-viewer iframe {
+        height: 450px;
+    }
+}
+```
