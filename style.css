@@ -1005,7 +1005,25 @@ footer .copyright {
     border-radius: 8px;
     font-weight: bold;
 }
+```css
+.resume-section {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.resume-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 28px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+```
 .resume-btn:hover {
     background: #0056b3;
 }
